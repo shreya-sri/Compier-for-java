@@ -1,4 +1,0 @@
-
-Symbol table 
-Name  Value  Type  Scope
-a  12  int  1
