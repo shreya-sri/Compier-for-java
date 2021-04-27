@@ -1,0 +1,145 @@
+                                                                                           class_stmnt
+                                                                                               / \
+                                                                                              /   \
+                                                                                             /     \
+                                                                                            /       \
+                                                                                           /         \
+                                                                                         NULL   method_stmnt
+                                                                                                     / \
+                                                                                                    /   \
+                                                                                                   /     \
+                                                                                                  /       \
+                                                                                                NULL  main_method
+                                                                                                            \
+                                                                                                           stmnt
+                                                                                                            / \
+                                                                                                           /   \
+                                                                                                          /     \
+                                                                                                       stmnt   NULL
+                                                                                                        / \
+                                                                                                       /   \
+                                                                                                      /     \
+                                                                                                   stmnt   NULL
+                                                                                                    / \
+                                                                                                   /   \
+                                                                                                  /     \
+                                                                                               stmnt   NULL
+                                                                                                / \
+                                                                                               /   \
+                                                                                              /     \
+                                                                                           stmnt   NULL
+                                                                                            / \
+                                                                                           /   \
+                                                                                          /     \
+                                                                                       stmnt   NULL
+                                                                                        / \
+                                                                                       /   \
+                                                                                      /     \
+                                                                                   stmnt   NULL
+                                                                                    / \
+                                                                                   /   \
+                                                                                  /     \
+                                                                               stmnt   NULL
+                                                                                / \
+                                                                               /   \
+                                                                              /     \
+                                                                           stmnt   NULL
+                                                                            / \
+                                                                           /   \
+                                                                          /     \
+                                                                       stmnt   NULL
+                                                                        / \
+                                                                       /   \
+                                                                      /     \
+                                                                   stmnt   NULL
+                                                                    / \
+                                                                   /   \
+                                                                  /     \
+                                                               stmnt   NULL
+                                                                / \
+                                                               /   \
+                                                              /     \
+                                                           stmnt   NULL
+                                                            / \
+                                                           /   \
+                                                          /     \
+                                                         /       \
+                                                        /         \
+                                                       /           \
+                                                    stmnt           =
+                                                     / \           / \
+                                                    /   \         /   \
+                                                   /     \       /     \
+                                                stmnt     =    str  "string"
+                                                 / \     / \
+                                                /   \   z   +
+                                               /     \     / \
+                                            stmnt     =   a  10
+                                             / \     / \
+                                            /   \   R  10
+                                           /     \
+                                          /       \
+                                         /         \
+                                        /           \
+                                       /             \
+                                      /               \
+                                     /                 \
+                                    /                   \
+                                   /                     \
+                                  /                       \
+                                 /                         \
+                                /                           \
+                             stmnt                          FOR
+                              / \                           / \
+                             /   \                         /   \
+                            /     \                       /     \
+                           /       \                     /       \
+                          /         \                   /         \
+                       stmnt         =                 /           \
+                        / \         / \               /             \
+                       /   \       /   \             /               \
+                      /     \    fact   1           /                 \
+                     /       \                     /                   \
+                    /         \                   /                     \
+                   /           \              FOR_ARGS                 stmnt
+                  /             \               / \                     / \
+                 /               \             /   \                   /   \
+                /                 \           /     \                 /     \
+               /                   \         /       \               /       \
+            stmnt                IF_ELSE    =    loop_conds         /         \
+             / \                   / \     / \       / \         stmnt         =
+            /   \                 /   \   i   1     /   \         / \         / \
+           /     \               /     \           /     \       /   \       /   \
+          /       \             /       \         <=     ++    NULL   =   dummy  10
+       stmnt       =           /         \       / \     /           / \
+        / \       / \         IF        stmnt   i   5   i           /   \
+       /   \     /   \       / \         / \                      fact   *
+      /     \   fl   6.7    /   \       /   \                           / \
+     /       \             /     \    NULL   =                         /   \
+  stmnt       =           >=    stmnt       / \                      fact   i
+   / \       / \         / \     / \       /   \
+  /   \     /   \       a   2   /   \     ff   10
+NULL   =   cr   'a'            /     \
+      / \                     /       \
+     a   /                 stmnt       =
+        / \                 / \       / \
+       12  3               /   \     /   \
+                          /     \   oo   444
+                       stmnt     =
+                        / \     / \
+                       /   \   ff  +
+                      /     \     / \
+                   stmnt     =   5   y
+                    / \     / \
+                   /   \   c   +
+                  /     \     / \
+               stmnt     =   5  10
+                / \     / \
+               /   \   y  99
+             NULL   =
+                   / \
+                  /   \
+                 ff   555
+ 
+
+ ACCEPTED

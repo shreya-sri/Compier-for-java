@@ -1,0 +1,92 @@
+t0 = 12 / 3
+a = t0
+cr = 'a'
+fl = 6.7
+t1 = a >= 2
+if(not t1) goto L1
+ff = 555
+y = 99
+t2 = 5 + 10
+c = t2
+t3 = 5 + y
+ff = t3
+oo = 444
+goto L2
+L1: 
+ff = 10
+L2: 
+fact = 1
+i = 1
+L3: 
+t4 = i <= 5
+if t4 goto L4
+goto L6
+L5: 
+t5 = i + 1
+i = t5
+goto L3
+L4: 
+t6 = fact * i
+fact = t6
+dummy = 10
+goto L5
+L6: 
+R = 10
+t7 = a + 10
+z = t7
+str = "string"
+
+ ACCEPTED
+
+
+
+the value of index 37
+
+--------------------------------------------------------
+
+INTERMEDIATE CODE
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+              #        op      arg1      arg2   result
+--------------------------------------------------------
+
+              0         /        12         3        t0
+              1         =        t0                   a
+              2         =       'a'                  cr
+              3         =       6.7                  fl
+              4        >=         a         2        t1
+              5   iffalse        t1                  L1
+              6         =       555                  ff
+              7         =        99                   y
+              8         +         5        10        t2
+              9         =        t2                   c
+             10         +         5         y        t3
+             11         =        t3                  ff
+             12         =       444                  oo
+             13      goto                            L2
+             14     label                            L1
+             15         =        10                  ff
+             16     label                            L2
+             17         =         1                fact
+             18         =         1                   i
+             19     label                            L3
+             20        <=         i         5        t4
+             21        if        t4                  L4
+             22      goto                            L6
+             23     label                            L5
+             24         +         i         1        t5
+             25         =        t5                   i
+             26      goto                            L3
+             27     label                            L4
+             28         *      fact         i        t6
+             29         =        t6                fact
+             30         =        10               dummy
+             31      goto                            L5
+             32     label                            L6
+             33         =        10                   R
+             34         +         a        10        t7
+             35         =        t7                   z
+             36         =  "string"                 str
+		 -----------------------
